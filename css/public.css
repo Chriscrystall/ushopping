@@ -1,0 +1,256 @@
+@charset "utf-8";
+.inner{
+    width: 1190px;
+    margin: 0 auto;
+}
+.toolbar ul .cold6f a{
+    color: #ea6f0f;
+}
+.header ul .cold6f a{
+    color: #ea6f0f;
+}
+.clearfix{
+    zoom:1;/*IE浏览器清浮动*/
+}
+.clearfix:after{
+    content:'';/*添加一个空内容*/
+    display:block;/*转块*/
+    clear:both;/*清浮动*/
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+/* toolbar */
+.iconfont{
+    color: orange;
+}
+.toolbar{
+    background: #f5f5f5;
+    border: 1px solid #efefef;
+}
+.toolbar ul li{
+    float: left;
+    margin: 0 12px 0 10px;
+}
+.toolbar ul li a{
+    font: 12px/35px "微软雅黑";
+    color: #656565;
+}
+.toolbar .down{
+    position: relative;
+    top: 7px;
+    margin-left: 5px;
+}
+.toolbar .down::before,
+.toolbar .down::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    border: 5px solid;
+    border-color: #f5f5f5 transparent;
+    border-bottom: 0;
+}
+.toolbar .down::before{
+    border-color: #d1d1d1 transparent;
+    top: 1px;
+
+}
+.toolbar .addreIcon{
+    display: inline-block;
+    width: 13px;
+    height: 18px;
+    background: url(../images/icons.jpg) no-repeat 0 0;
+    margin-right: 5px;
+    vertical-align: middle;
+
+}
+.toolbar .arr{
+    position: relative;
+    top: 12px;
+    width: 0;
+    height: 0;
+    border-width: 6px 6px 0;
+    border-style: solid;
+    border-color: #bbbbbb transparent;
+    margin-left: 4px;
+}
+ .toolbar .cartIcon{
+     display: inline-block;
+     width: 14px;
+     height: 14px;
+     background: url(../images/icons.jpg) no-repeat 0 -22px;
+     margin-right: 8px;
+}
+
+/* header */
+
+.header .logo{
+    padding: 35px 0 34px;
+
+}
+
+.header form{
+    margin: 30px 0 0 155px;
+
+}
+
+.header .search input[type=text]{
+    width: 390px;
+    height: 36px;
+    background: url(../images/icons.jpg) no-repeat 9px -37px;
+    padding-left:28px;
+    border: 2px solid #ef6f18;
+    border-right: none;
+    font: 12px/40px "微软雅黑";
+    color: #acacac;
+
+}
+.header .search input[type=submit]{
+    height: 40px;
+    background: #f26b11;
+    padding: 0 42px;
+    font: 18px/40px "微软雅黑";
+    color:#fff;
+    vertical-align: top;
+}
+.header .keyWordNew{
+    margin-left: -9px;
+    padding-top: 8px;
+    
+}
+.header .keyWordNew a{
+    float: left;
+    padding: 0 11px 0 9px;
+    border-right: 1px solid #9c9c9c;
+    font: 12px/14px "微软雅黑";
+    color:#a0a0a0;
+
+}
+.header .keyWordNew .last{
+    border-right-color:transparent;
+}
+
+
+
+
+
+/* navbar */
+.navbar .inner ul li{
+    float: left;
+    
+}
+.navbar .inner{
+    position: relative;
+}
+
+.navbar .inner ul li a{
+    font: 15px/38px "微软雅黑";
+    color: #2a2a2a;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.navbar .inner .nav_li1{
+   padding-left: 199px;
+}
+.navbar .menu{
+    /* 不占位,直接设置absolute */
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 190px;
+
+}
+.navbar .left{
+    width: 190px;
+}
+.navbar .menu .left h3{
+    background: #f26b11;
+    line-height: 38px;
+    font: 13px/38px "微软雅黑";
+    width: 190px;
+
+}
+.navbar .menu .left h3 i{
+    display: inline-block;
+    width: 12px;
+    height: 10px;
+    background: url(../images/icons.jpg) no-repeat 0 -72px;
+    margin-right: 5px;
+    margin-left: 9px;
+
+
+}
+.navbar .menu .left ul li{
+    background: #262221;
+    width: 100%;
+    
+}
+/* .navbar .menu .left ul li span{
+    padding-left: 5px;
+    padding-right: 9px;
+    
+} */
+.navbar .menu .left ul li a{
+    font: 14px/32px "微软雅黑";
+    color: #fff;
+
+}
+
+/* footer */
+.footer{
+    height: 240px;
+    background-color: #333333;
+}
+.footer .items{
+    float: left;
+    /* margin-left: 107px; */
+    margin-top: 18px;
+}
+.footer .items ul li a{
+    font: 15px/30px "微软雅黑";
+    color: #a9a9a9;
+
+}
+.footer .items ul.items_li1{
+    font: 20px/47px  "微软雅黑";
+    color: #a9a9a9;
+
+}
+.items_left{
+    margin-left: 174px;
+}
+.items_le{
+    margin-left: 107px;
+}
+
+/* copy */
+.copy{
+    background-color: #333333;
+    height: 100px;
+    text-align: center;
+    border-top: 2px double #2f2f2f;
+}
+.copy p,a{
+    font: 14px/27px "微软雅黑";
+    color: #656565;
+}
+.copy .copy_p1{
+    padding-top: 23px;
+}
+.copy .copy_p2{
+    padding-bottom: 23px;
+
+}
+    
+
+
+
+
+
+
